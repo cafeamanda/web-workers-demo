@@ -75,7 +75,7 @@
 
     var dateString = days[day] + ", " + date + " " + months[month] + " " + parseInt(1900 + year);
     var timeString = hours + ":" + mins + ":" + secs + ":" + ms;
-    
+
     // calc the time diff between frames, starting with the second frame
     if (lastTime > 0) {
       frameTimeDiff = now - lastTime;
